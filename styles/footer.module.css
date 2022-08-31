@@ -1,0 +1,36 @@
+/* Footer CSS */
+.h1{
+    color: green;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    .bottom{
+        /* position: fixed; */
+        /* bottom: 0; */
+        border-top: 2px solid red;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .links{
+        margin: 10px auto;
+        width: 100%;
+    }
+    .copyright{
+        padding: 10px;
+        border-top: 1px solid grey;
+    }
+}

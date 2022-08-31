@@ -1,0 +1,682 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+/* Global CSS */
+.button {
+  padding: 8px 30px;
+  border-radius: 35px;
+  border: none;
+  background: #ff3000;
+  color: white;
+  transition: all 0.6s;
+  margin: 10px auto;
+}
+.button:hover{
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
+.button:active {
+  background: rgba(0, 0, 0, 0.3);
+  color: #333;
+}
+.li {
+  list-style-image: url("../public/270-01-512.png");
+}
+/* Header CSS */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(243, 251, 254);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.logo {
+  color: #020e4a;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo span {
+  color: #ff3000;
+}
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+}
+.links a:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+.burgerMenu{
+  font-size: 1.8rem;
+  padding: 2px;
+  border-radius: 5%;
+  transition: all 0.7s;
+}
+.closeMenu, .toogleMenu{
+  display: none;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  width: 100px;
+  cursor: pointer;
+}
+.iconshov{
+  padding: 2px;
+  border-radius: 5%;
+  transition: all 0.7s;
+}
+.iconshov:hover{
+  background: rgba(225, 225, 225, 0.5);
+  cursor: pointer;
+}
+.icons1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  width: 100px;
+  cursor: pointer;
+}
+.iconshov1{
+  padding: 2px;
+  border-radius: 5%;
+  transition: all 0.7s;
+}
+.iconshov1:hover{
+  background: rgba(225, 225, 225, 0.5);
+  cursor: pointer;
+}
+.Mlinks{
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  top: 70px;
+  padding: 10px;
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+  position: absolute;
+  width: 250px;
+}
+.Mlinks a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+  display: none;
+}
+.Mlinks a:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+#MobMenu{
+  display: flex;
+}
+#ShowMenu{
+  display: none;
+}
+#HideMenu{
+  display: none;
+}
+.closeMenu{
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px){
+  .navbar{
+      justify-content: space-between;
+  }
+  .links{
+      display: none;
+  }
+  .icons{
+      display: none;
+  }
+  #ShowMenu{
+      display: block;
+  }
+  .toogleMenu{
+    display: block;
+  }
+}
+/*Go To Top*/
+.gotop {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: url(../public/gotoup.png);
+  background-position: center;
+  background-color: #ff3000;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  object-fit: cover;
+  border: 3px solid #ff3000;
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  cursor: pointer;
+  z-index: 999;
+  animation: changebr 7s ease-in-out infinite alternate-reverse;
+}
+.gotop:active {
+  border: 2px solid rgba(225, 225, 225, 0.8);
+}
+@keyframes changebr {
+  50% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  70% {
+    border-radius: 30% 79% 79% 30% / 30% 30% 50% 70%;
+  }
+}
+/* Main Page Design */
+.home {
+  width: 100%;
+  height: 90vh;
+  background: url(../public/HomeImg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.hero {
+  position: absolute;
+  top: 150px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.h1 {
+  font-family: "Nunito - Bold";
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.h2 {
+  font-size: 36px;
+  font-family: "Nunito - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.p {
+  color: #020e4a;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "P, ersonal" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.p1 {
+  color: #020e4a;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "P, ersonal" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 20px;
+}
+.infofirst {
+  width: 350px;
+  text-align: left;
+}
+.infosecond {
+  width: 400px;
+}
+.infothird {
+  width: 400px;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  overflow: hidden;
+  color: #525252;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.box span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+/* Cuppon Section CSS */
+.cuppon {
+  width: 100%;
+  height: 100vh;
+  background: url(../public/cupponsec.png);
+  background-position: center;
+  background-size: cover;
+}
+.cupoo {
+  width: 90%;
+  margin: 90px auto;
+  text-align: center;
+}
+.ch1 {
+  font-size: 2rem;
+  color: #020e4a;
+  font-weight: bold;
+}
+.ch2 {
+  font-size: 1.7rem;
+  color: #ff3000;
+  font-weight: 400;
+}
+.cupoocont {
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+  border: none;
+  border-radius: 4px;
+  display: none;
+}
+.cuppoimg {
+  display: none;
+  width: 100%;
+  height: 30vh;
+  margin: 10px auto;
+  border-radius: 6px;
+  border: none;
+  background: url(../public/campusImg.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
+.cupooinfo {
+  margin: 10px auto;
+  width: 100%;
+  border-radius: 7px;
+  padding: 0px;
+  display: none;
+}
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.feachimg1 {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: orange#ff3000;
+  background: url(../public/lesson.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+.feachimg2 {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: orange#ff3000;
+  background: url(../public/presentation.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+.feachimg3 {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: orange#ff3000;
+  background: url(../public/lecture_copy.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+.feachinfo {
+  width: 80%;
+  margin-left: 20px;
+}
+/* About US CSS */
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.aboutinfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  text-align: left;
+  width: 30%;
+  height: auto;
+}
+.aboutinfoh5{
+  font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+.aboutinfoh1{
+  font-size: 2.25rem/* 36px */;
+  line-height: 2.5rem/* 40px */;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+}
+.aboutinfop{
+  font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    font-weight: 400;
+    color: grey;
+    font-style: normal;
+  text-align: left;
+}
+.aboutusimg {
+  background: url(../public/AboutImg.png);
+  background-position: center;
+  background-size: cover;
+  width: 644px;
+  height: 618px;
+}
+.li {
+  text-transform: uppercase;
+  color: #ff3000;
+}
+.aboutusbottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+.aboutusboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 266px;
+  height: 143px;
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #ff3000;
+  margin: 10px auto;
+}
+.mockh2 {
+  color: #ff3000;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/*2nd Last Section CSS*/
+.fyda {
+  width: 100%;
+  height: 100vh;
+  background: url(../public/fyda.png);
+  background-position: center;
+  background-size: cover;
+}
+.h1fyda {
+  font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+  color: #333;
+  display: none;
+}
+.fydabutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  background: #ff3000;
+  border-radius: 55px;
+  width: 90%;
+  text-align: left;
+  margin: 20px auto;
+  display: none;
+}
+.fydabutton1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  background: #fff9e4;
+  color: #333;
+  border-radius: 55px;
+  width: 90%;
+  text-align: left;
+  margin: 20px auto;
+  display: none;
+}
+.fydabutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  background: #ffe7ed;
+  color: #333;
+  border-radius: 55px;
+  width: 90%;
+  text-align: left;
+  margin: 20px auto;
+  display: none;
+}
+.fydaleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.fydaright {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+.fydaleft1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.fydaright1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-left: 20px;
+}
+.fydaleft2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.fydaright2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-left: 20px;
+}
+.connect {
+  width: 955px;
+  height: 207px;
+  border-radius: 20px;
+  background-color: #ff3000;
+  border-radius: 35px;
+  background: url(../public/8-layers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: -100px;
+  z-index: 99;
+}
+.contactback {
+  background: rgba(0, 0, 0, 0.7) url("../public/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-blend-mode: darken;
+}
+
+/* Meadia Queries */
+@media only screen and (max-width: 768px) {
+  .cuppon {
+    background: white;
+    height: auto;
+  }
+  .cuppoimg {
+    display: block;
+  }
+  .cupooinfo {
+    display: block;
+  }
+  .cupoocont {
+    display: block;
+  }
+  .aboutus {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .aboutinfo {
+    width: 100%;
+    padding: 5px;
+  }
+  .aboutusimg {
+    width: 100%;
+    height: 50vh;
+  }
+  .fyda {
+    background: url(../public/girl-1.png);
+    background-position: bottom;
+    background-size: 90%;
+    height: 160vh;
+    background-repeat: no-repeat;
+    background-color: #f7f5f2;
+  }
+  .allbtnfyda {
+    display: flex;
+    flex-direction: column;
+  }
+  .h1fyda {
+    display: block;
+  }
+  .fydabutton {
+    display: flex;
+    height: 130px;
+  }
+  .fydabutton1 {
+    display: flex;
+    height: 130px;
+  }
+  .fydabutton2 {
+    display: flex;
+    height: 130px;
+  }
+  .connect {
+    width: 98%;
+    position: relative;
+    top: -10px;
+    margin: -100px auto;
+  }
+  .box{
+    height: 70px;
+    width: 50%;
+  }
+  .ch2{
+    font-size: 1.3rem;
+  }
+  .aboutinfoh1{
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .aboutinfoh5 {
+    text-align: center;
+  }
+  .aboutinfop{
+    text-align: center;
+  }
+  .infofirst{
+    width: 98%;
+  }
+}

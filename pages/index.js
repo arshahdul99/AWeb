@@ -18,23 +18,23 @@ export default function Home() {
         <div className={styles.hero}>
           <h1 className={styles.h1}>CHASING JOBS?</h1>
           <h2 className={styles.h2}>Let us help You!!!</h2>
-          <p className={styles.p1}>Personalized Training - Guidance from top-notch faculities - job Assistance - Internship Programs - Enhance<br/> Skillsets Land a job of 8+ LPA Helped 500+ Students and many more to go</p>
+          <p className={styles.p1}>Personalized Training - Guidance from top-notch faculities - job Assistance - Internship Programs - Enhance  Skillsets Land a job of 8+ LPA Helped 500+ Students and many more to go...</p>
           <button className={styles.button}>Explore Now</button>
         </div>
       </section>
-      <div className="container">
+      <div className={styles.container}>
       <section id="abouttraining">
         <div className={styles.info}>
           <div className={styles.infofirst}>
-            <p className={styles.p}>About Our Placement Program</p>
-            <h1 className={styles.h2}>Develope your Skills <br /> Shine Your Life</h1>
-            <button className={styles.button}>Know More</button>
+            <p className={styles.abth5}>About Our Remort Traning</p>
+            <h1 className={styles.abth2}>Develope your Skills <br /> Shine Your Life</h1>
+            <button className={styles.button}>Read More</button>
           </div>
           <div className={styles.infosecond}>
-            <p className="text-gray-700 text-base font-normal not-italic text-left md:text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non delectus suscipit eveniet recusandae soluta perferendis quam praesentium in dolor adipisci, similique aspernatur reiciendis ducimus laudantium, error deserunt odit tempora ipsam iusto fugit voluptatum a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, amet!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor, sit amet convallis nunc sce leris is que in. Lorem ipsum dolor sit amet consectetur adipiscing elitorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus </p>
           </div>
           <div className={styles.infothird}>
-          <p className='text-gray-700 text-base font-normal not-italic text-left md:text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non delectus suscipit eveniet recusandae soluta perferendis quam praesentium in dolor adipisci, similique aspernatur reiciendis ducimus laudantium, error deserunt odit tempora ipsam iusto fugit voluptatum a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, amet!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor, sit amet convallis nunc sce leris is que in. Lorem ipsum dolor sit amet consectetur adipiscing elitorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus </p>
           </div>
         </div>
         <div className={styles.stats}>
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
       <section id="cuppon" className={styles.cuppon}>
       <div className={styles.cupoo}>
-          <h1 className='text-gray-900 text-2xl font-bold not-italic text-center md:text-xl'>How Does Our Mentorship Help You to get 100% Profit?</h1>
+          <h1 className={styles.ch1}>How Does Our Mentorship Help You to get 100% Profit?</h1>
           <h2 className={styles.ch2}>20% OFF - Use Code <strong>"First20"</strong> to get 20% off for limited time</h2>
           <div className={styles.cuppoimg}></div>
           <div className={styles.cupoocont}>
@@ -74,35 +74,33 @@ export default function Home() {
       <section id="aboutus" className={styles.aboutus}>
         <div className={styles.aboutinfo}>
           <h5 className={styles.aboutinfoh5}>About Us</h5>
-          <h1 className={styles.aboutinfoh1}>Are You Working Proffesinal <br />willing To Switch?</h1>
-          <p className={styles.aboutinfop}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <h1 className={styles.aboutinfoh1}>Are You Working Proffesinal willing To Switch?</h1>
+          <p className={styles.aboutinfop}>We have invented and perfected the best system to learn React. A dedicated team to help you land the best opportunities</p>
           <br />
-          <li className={styles.li}>On-Demand Real-Time Projects</li>
-          <li className={styles.li}>Exclusive Content and Support Team</li>
-          <li className={styles.li}>Job Assistance And Resume Building</li>
-          <li className={styles.li}>interview Prep Modules</li>
+          <div className={styles.li}></div>
         </div>
         <div className={styles.aboutusimg}></div>
         <div className={styles.aboutusbottom}>
           <div className={styles.aboutusboxes}>
-            <h2 className='text-2xl font-bold not-italic text-center uppercase'>50k+ <br />Community</h2>
-            <p className='text-gray-700 text-sm font-normal not-italic text-center'>Globally Connect through prople with the same goal.</p>
+            <h2 className={styles.mockh2}>50k+ <br />Community</h2>
+            <p className={styles.mockp}>Globally Connect through prople with the same goal.</p>
           </div>
           <div className={styles.aboutusboxes}>
-            <h2 className='text-2xl font-bold not-italic text-center uppercase'>Job <br />Assistance</h2>
-            <p className='text-gray-700 text-sm font-normal not-italic text-center'>Exclusive Placement Support Team will you crack job interview.</p>
+            <h2 className={styles.mockh2}>Job <br />Assistance</h2>
+            <p className={styles.mockp}>Exclusive Placement Support Team will you crack job interview.</p>
           </div>
           <div className={styles.aboutusboxes}>
-            <h2 className='text-2xl font-bold not-italic text-center uppercase'>Certification</h2>
+            <h2 className={styles.mockh2}>Certification</h2>
             <br />
-            <p className='text-gray-700 text-sm font-normal not-italic text-center'>Get Course Complition certificate as a full fledged React developer.</p>
+            <p className={styles.mockp}>Get Course Complition certificate as a full fledged React developer.</p>
           </div>
           <div className={styles.aboutusboxes}>
-            <h2 className='text-2xl font-bold not-italic text-center uppercase'>Doubt solving<br />Community</h2>
-            <p className='text-gray-700 text-sm font-normal not-italic text-center'>Getting Stuck While developing? Get all your doubt resolve by our expert.</p>
+            <h2 className={styles.mockh2}>Doubt solving</h2>
+            <p className={styles.mockp}>Getting Stuck While developing? Get all your doubt resolve by our expert.</p>
           </div>
 </div>
       </section>
+      </div>
       <section id="fyda" className={styles.fyda}>
         <h1 className={styles.h1fyda}>How PrepBytes MentorShip driven <br />Personalized Learning Work?</h1>
         <div className={styles.allbtnfyda}>
@@ -169,13 +167,12 @@ export default function Home() {
           </div>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
+          <button className="flex text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 rounded-full text-lg">Submit</button>
         </div>
         </div>
         </div>
         </div>
       </section></div>
-      </div>
       <Scrolltop/>
       <Footer/>
       </>

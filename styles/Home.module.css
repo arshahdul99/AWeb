@@ -84,6 +84,7 @@
   font-size: 1.5rem;
   width: 100px;
   cursor: pointer;
+  display: none;
 }
 .iconshov1{
   padding: 2px;
@@ -103,6 +104,7 @@
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
   position: absolute;
   width: 250px;
+  z-index: 999;
 }
 .Mlinks a{
   text-decoration: none;
@@ -114,15 +116,6 @@
 .Mlinks a:active {
   background: rgba(0, 0, 0, 0.1);
 }
-#MobMenu{
-  display: flex;
-}
-#ShowMenu{
-  display: none;
-}
-#HideMenu{
-  display: none;
-}
 .closeMenu{
   font-size: 1.5rem;
 }
@@ -131,9 +124,14 @@
       justify-content: space-between;
   }
   .links{
+      display: flex;
+      flex-direction: column;
       display: none;
   }
   .icons{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 150px;
       display: none;
   }
   #ShowMenu{
@@ -294,9 +292,10 @@
 .cuppon {
   width: 100%;
   height: 100vh;
-  background: url(../public/cupponsec.png);
+  background: url(../public/18-layers.png);
   background-position: center;
-  background-size: cover;
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 .cupoo {
   width: 90%;
@@ -626,6 +625,10 @@
     width: 100%;
     height: 50vh;
   }
+  .aboutusboxes{
+    width: 100%;
+    margin: 10px auto;
+  }
   .fyda {
     background: url(../public/girl-1.png);
     background-position: bottom;
@@ -664,7 +667,7 @@
     width: 50%;
   }
   .ch2{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .aboutinfoh1{
     text-align: center;

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
-import Header from '../components/header'
+import Header from '../components/Header'
 import Scrolltop from '../components/scrolltop'
 import styles from '../styles/Home.module.css'
 
@@ -22,6 +22,7 @@ export default function Home() {
           <button className={styles.button}>Explore Now</button>
         </div>
       </section>
+      <div className="container">
       <section id="abouttraining">
         <div className={styles.info}>
           <div className={styles.infofirst}>
@@ -45,7 +46,7 @@ export default function Home() {
       </section>
       <section id="cuppon" className={styles.cuppon}>
       <div className={styles.cupoo}>
-          <h1 className='text-gray-900 text-4xl font-bold not-italic text-center md:text-xl'>How Does Our Mentorship Help You to get 100% Profit?</h1>
+          <h1 className='text-gray-900 text-2xl font-bold not-italic text-center md:text-xl'>How Does Our Mentorship Help You to get 100% Profit?</h1>
           <h2 className={styles.ch2}>20% OFF - Use Code <strong>"First20"</strong> to get 20% off for limited time</h2>
           <div className={styles.cuppoimg}></div>
           <div className={styles.cupoocont}>
@@ -174,6 +175,7 @@ export default function Home() {
         </div>
         </div>
       </section></div>
+      </div>
       <Scrolltop/>
       <Footer/>
       </>

@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 function Scrolltop() {
     return (
         <>
-            <div className={styles.gotop}>
-            </div>
+        <Link href="/">
+            <a href="#"><div className={styles.gotop}></div></a>
+        </Link>
+        
         </>
     )
 }

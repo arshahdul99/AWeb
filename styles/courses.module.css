@@ -1,0 +1,973 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+.btnwithback {
+  padding: 10px 30px;
+  border-radius: 23px;
+  background-color: #ff3000;
+  border: 1px solid #ff3000;
+  margin: 10px 0px;
+  color: white;
+}
+.btnwithback:hover {
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
+.btnwithoutback {
+  padding: 10px 30px;
+  border-radius: 23px;
+  margin: 10px 10px;
+  border: 1px solid #ff3000;
+}
+.btnwithoutback:hover {
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
+
+/* Section 1 CSS */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background: url(../public/bg-image-27.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.coursehero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  gap: 1rem;
+  height: auto;
+  border-radius: 4px;
+}
+.courseheroleft {
+  width: 100%;
+  padding: 20px;
+}
+.courseheroright {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: url(../public/Rectangle_6_copy.png);
+  color: #000000;
+}
+.h1 {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 39px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+.h3 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  margin: 10px 0;
+}
+.h4 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.p {
+  font-family: Nunito;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: white;
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+.input::placeholder {
+  color: #000000;
+}
+.herobottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  background: url(../public/Rectangle_6_copy.png);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.herobox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.herobox span {
+  color: #ff3000;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+/* Section 2 CSS */
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80vh;
+  background: url(../public/section2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+  transform: translateY(-60px);
+}
+.sec2boxleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 50%;
+}
+.h2 {
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 10px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-left: 60px;
+}
+.sec2leftimg {
+  background: url(../public/Layer_6.png);
+  margin-top: 20px;
+  width: 560px;
+  margin-left: 100px;
+  height: 274px;
+}
+.sec2boxright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: url(../public/section2smallback.png);
+  width: 50%;
+  padding-right: 100px;
+}
+.sec2boxrightlogos {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+.sec2boxrightlogo {
+  width: 169px;
+  height: 98px;
+  background: url(../public/facebook-9242.png);
+  background-color: white;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.sec2boxrightlogo:hover {
+  transform: translateY(-20px);
+}
+.sec2boxrightlogo1:hover {
+  transform: translateY(-20px);
+}
+.sec2boxrightlogo2:hover {
+  transform: translateY(-20px);
+}
+.sec2boxrightlogo3:hover {
+  transform: translateY(-20px);
+}
+.sec2boxrightlogo1 {
+  width: 169px;
+  height: 98px;
+  background: url(../public/airbnb-9237.png);
+  background-color: white;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.sec2boxrightlogo2 {
+  width: 169px;
+  height: 98px;
+  background: url(../public/cisco-9244.png);
+  background-color: white;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.sec2boxrightlogo3 {
+  width: 169px;
+  height: 98px;
+  background: url(../public/hashedin-9243.png);
+  background-color: white;
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  border-radius: 4px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.p2 {
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+/* Section 3 CSS */
+.section3 {
+  width: 100%;
+  height: auto;
+  background: url(../public/coursedetailsback.png);
+  background-size: 100%;
+}
+.p3 {
+  color: #ff3000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.h2d {
+  color: #05152f;
+  font-family: Nunito;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.coursetopboxs {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.coursetopbox {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  height: 186px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.coursetopbox:hover {
+  transform: translateY(-20px);
+}
+.courseicon {
+  margin: 10px auto;
+  width: 94px;
+  height: 94px;
+  background: url(../public/ipod.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #feecef;
+  border-radius: 50%;
+}
+.courseicon2 {
+  margin: 10px auto;
+  width: 94px;
+  height: 94px;
+  background: url(../public/shopping-cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e7f8f5;
+  border-radius: 50%;
+}
+.courseicon3 {
+  margin: 10px auto;
+  width: 94px;
+  height: 94px;
+  background: url(../public/movies-app.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff4e8;
+  border-radius: 50%;
+}
+.span3 {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.pmock {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.purchase {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.purchaseleft {
+  width: 563px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background-color: #f7f5f2;
+  margin-top: 10px;
+  padding: 20px;
+}
+.purchaseright {
+  width: 563px;
+  height: auto;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background-color: #f7f5f2;
+  margin-top: 10px;
+  padding: 20px;
+}
+.h2purchase {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.purchasetopcard {
+  width: 100%;
+  height: 137px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background: url(../public/whyus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+.basicfeatures {
+  width: 523px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 20px;
+}
+.justatext {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.ul {
+  list-style-image: url(../public/tick.png);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.li {
+  padding: 5px;
+}
+.h1blow {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 10px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.bottompurchase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.buybtn {
+  padding: 7px 40px;
+  color: #f7f5f2;
+  border-radius: 29px;
+  background-color: #ff3000;
+}
+.buybtn:hover {
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+}
+.h2purchaseright {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.purchaserightbox1 {
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.purchaserightbox1 {
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  }
+  .righttextbox {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  }
+  .p5 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  }
+  .kuchnahi {
+  width: 100%;
+  cursor: pointer;
+  }
+  .h2nox {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  padding: 2px;
+  }
+.nox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.noxbtn {
+  padding: 10px 20px;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 29px;
+  background-color: #ff3000;
+  color: #e7f8f5;
+}
+.noxbtn:hover {
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+}
+/* Section 4 CSS */
+.secton4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 631px;
+  background: url(../public/bg-image-27.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.sec4h2 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.allreviews {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+}
+.reviewcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 559px;
+  height: 253px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.topreview{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+}
+.changebtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 164px;
+  height: 50px;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 25px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+}
+.leftarrows {
+  width: 18px;
+  height: 32px;
+  background: url(../public/leftarrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.rightarrows {
+  width: 18px;
+  cursor: pointer;
+  height: 32px;
+  background: url(../public/rightarrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.imagesec4 {
+  width: 71px;
+  height: 71px;
+  background: url(../public/Layer_14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.textleftsec4{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+}
+.bioinfo {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.bottomreview{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+.bio {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.h6 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+/* Section 5 CSS */
+.section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 631px;
+  background: white;
+}
+.questions {
+  margin-top: 20px;
+  border: 4px;
+  width: 60%;
+  transition: all 0.6s;
+  padding: 10px;
+}
+/* Last Section CSS */
+.connect {
+  width: 955px;
+  height: 207px;
+  border-radius: 20px;
+  background-color: #ff3000;
+  border-radius: 35px;
+  background: url(../public/8-layers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: 90px;
+  z-index: 99;
+}
+.contactback {
+  background: rgba(0, 0, 0, 0.7) url("../public/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-blend-mode: darken;
+  width: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media Queries For Mobile View */
+@media (max-width: 760px) {
+  .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .coursehero {
+    width: 97%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+  }
+  .courseheroleft {
+    text-align: center;
+  }
+  .h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .section1 {
+    height: auto;
+  }
+  .herobox {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  .reviewcard{
+    padding: 10px;
+  }
+  .connect{
+    width: 100%;
+  }
+  .section2 {
+    grid-template-columns: 1fr;
+    transform: translateY(0px);
+    clip-path: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .sec2boxleft,
+  .sec2boxright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec2leftimg {
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  .sec2boxright {
+    padding: 10px;
+  }
+  .sec2boxrightlogo,
+  .sec2boxrightlogo1,
+  .sec2boxrightlogo2,
+  .sec2boxrightlogo3 {
+    margin: 10px auto;
+  }
+  .h2 br {
+    display: none;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .purchase {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .purchasetopcard {
+    background-size: 90%;
+  }
+  .basicfeatures {
+    width: 100%;
+  }
+  .purchaserightbox1 {
+    width: 100%;
+  }
+  .purchaseleft {
+    width: 100%;
+    height: auto;
+  }
+  .purchaseright {
+    width: 100%;
+    height: auto;
+  }
+  .coursetopboxs {
+    width: 100%;
+  }
+  .allreviews {
+    width: 100%;
+  }
+  .reviewcard{
+    width: 500px;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .section5 {
+    height: auto;
+    padding: 10px;
+  }
+  .questions {
+    width: 100%;
+    height: auto;
+  }
+  .nextpower{
+    width: 100%;
+  }
+}
+
+
+
+/* Additinal CSS  */
+.purchaserightbox1 {
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(178, 178, 178, 0.35);
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.righttextbox {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.p5 {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.kuchnahitop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kuchnahi {
+  width: 100%;
+  cursor: pointer;
+}
+.downone{
+    width: 19px;
+    height: 15px;
+    margin-right: 20px;
+}
+.downtwo{
+    width: 19px;
+    height: 15px;
+    margin-right: 20px;
+    display: none;
+}
+.h2nox {
+  color: #020e4a;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  padding: 10px;
+}
+.dettext{
+    transition: all 0.3s;
+    padding: 10px;
+    display: none;
+}

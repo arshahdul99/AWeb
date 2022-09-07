@@ -8,11 +8,16 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>ReactJs Official</title>
-        <meta name="description" content="React Js Official Web Application" />
+      {/* use head and add meta tag in head component  */}
+    <Head>
+    <title>Reactjsofficial</title>
+        <meta name="description" content="Reactjs official Web Application" />
         <link rel="icon" href="/YourFavicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>
+       {/* use layout and add other ui component  */}
       <Header/>
       <section id="Home" className={styles.home}>
         <div className={styles.hero}>
@@ -129,50 +134,51 @@ export default function Home() {
       </section>
       <div className={styles.connect}></div>
       <div className={styles.contactback}>
-      <section className="text-white body-font relative">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
-    </div>
-    <div className="lg:w-1/2 md:w-2/3 mx-auto">
-      <div className="flex flex-wrap -m-2">
-        <div className="p-2 w-1/2">
-          <div className="relative">
-            <label for="name" className="leading-7 text-sm text-white">Name</label>
-            <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+      <section className="text-white body-font relative w-full" id='contact'>
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-col text-center w-full mb-12">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+            </div>
+            <div className="lg:w-1/2 md:w-2/3 mx-auto">
+              <div className="flex flex-wrap -m-2">
+                <div className="p-2 w-1/2">
+                  <div className="relative">
+                    <label for="name" className="leading-7 text-sm text-white">Name</label>
+                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                  </div>
+                </div>
+                <div className="p-2 w-1/2">
+                  <div className="relative">
+                    <label for="email" className="leading-7 text-sm text-white">Email</label>
+                    <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                  </div>
+                </div>
+                <div className="p-2 w-1/2">
+                  <div className="relative">
+                    <label for="name" className="leading-7 text-sm text-white">Phone No.</label>
+                    <input type="number" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                  </div>
+                </div>
+                <div className="p-2 w-1/2">
+                  <div className="relative">
+                    <label for="name" className="leading-7 text-sm text-white">Company Name</label>
+                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                  </div>
+                </div>
+                <div className="p-2 w-full">
+                  <div className="relative">
+                    <label for="message" className="leading-7 text-sm text-white">Message</label>
+                    <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-blue-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                </div>
+                <div className="p-2 w-full">
+                  <button className={styles.btnwithback}>Submit</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="p-2 w-1/2">
-          <div className="relative">
-            <label for="email" className="leading-7 text-sm text-white">Email</label>
-            <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-        </div>
-        <div className="p-2 w-1/2">
-          <div className="relative">
-            <label for="name" className="leading-7 text-sm text-white">Phone No.</label>
-            <input type="number" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-        </div>
-        <div className="p-2 w-1/2">
-          <div className="relative">
-            <label for="name" className="leading-7 text-sm text-white">Company Name</label>
-            <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-        </div>
-        <div className="p-2 w-full">
-          <div className="relative">
-            <label for="message" className="leading-7 text-sm text-white">Message</label>
-            <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-          </div>
-        </div>
-        <div className="p-2 w-full">
-          <button className="flex text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 rounded-full text-lg">Submit</button>
-        </div>
-        </div>
-        </div>
-        </div>
-      </section></div>
+        </section>
+      </div>
       <Scrolltop/>
       <Footer/>
       </>

@@ -21,6 +21,7 @@ a {
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.3s;
 }
 /*Header Starts*/
 .head{
@@ -83,9 +84,6 @@ a {
   font-size: 1.6rem;
   cursor: pointer;
 }
-.icon:hover{
-  color: blue;
-}
 /* Hamburger Menu */
 .ToggleMenu{
   display: none;
@@ -115,6 +113,15 @@ a {
   flex-direction: row;
   gap: 1rem;
   padding: 10px;
+}
+.telegram:hover{
+  color: blue;
+}
+.instagram:hover{
+  color: purple;
+}
+.whatsapp:hover{
+  color: green;
 }
 /*Header Ends*/
 

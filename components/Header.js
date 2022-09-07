@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import { FiMenu } from 'react-icons/fi';
 import { FaTelegramPlane } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
@@ -19,12 +20,14 @@ function Header() {
   return (
     <>
      <header className='head'>
+     <Link href="/">
         <div className="logo">
-          ReactJs
+        Reactjs
           <span>
-            Officail
+          official
           </span>
         </div>
+        </Link>
         <div className="ToggleMenu icon" id='menuon' onClick={toggleMenu}>
           <FiMenu />
         </div>
@@ -32,25 +35,33 @@ function Header() {
           <AiOutlineClose />
         </div>
         <div className="menulinks">
+        <Link href="/">
           <a href="#">React Training</a>
+          </Link>
+        <Link href="/Courses">
           <a href="#">Become Our Team</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Blogs</a>
+          </Link>
+          <a href="#contact">Contact Us</a>
+          <a href="https://reactjsofficial.com/">Blogs</a>
         </div>
         <div className="share">
-          <FaTelegramPlane className='icon' />
-          <FaInstagram className='icon' />
-          <BsWhatsapp className='icon' />
+          <FaTelegramPlane className='icon telegram' />
+          <FaInstagram className='icon instagram' />
+          <BsWhatsapp className='icon whatsapp' />
         </div>
         <div className="MobileMenu" id='MobileMenu'>
-        <a href="#">React Training</a>
+        <Link href="/">
+          <a href="#">React Training</a>
+          </Link>
+          <Link href="/Courses">
           <a href="#">Become Our Team</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Blogs</a>
+          </Link>
+          <a href="#contact">Contact Us</a>
+          <a href="https://reactjsofficial.com/">Blogs</a>
           <div className="Mobshare">
-          <FaTelegramPlane className='icon' />
-          <FaInstagram className='icon' />
-          <BsWhatsapp className='icon' />
+          <FaTelegramPlane className='icon telegram' />
+          <FaInstagram className='icon instagram' />
+          <BsWhatsapp className='icon whatsapp' />
         </div>
         </div>
      </header>

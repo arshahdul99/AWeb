@@ -36,11 +36,13 @@
 .logo {
   color: #020e4a;
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 900;
+  cursor: pointer;
   text-transform: uppercase;
 }
 .logo span {
   color: #ff3000;
+  font-weight: 900;
 }
 .links a {
   text-decoration: none;
@@ -787,4 +789,15 @@ text-align: center;
   .infofirst{
     width: 98%;
   }
+}
+.btnwithback {
+  padding: 10px 30px;
+  border-radius: 23px;
+  background-color: #ff3000;
+  border: 1px solid #ff3000;
+  margin: 10px 0px;
+  color: white;
+}
+.btnwithback:hover {
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
 }

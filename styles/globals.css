@@ -21,7 +21,7 @@ a {
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 /*Header Starts*/
 .head{
@@ -41,6 +41,7 @@ a {
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .logo span{
   color: red;
@@ -54,6 +55,9 @@ a {
 }
 .menulinks a:active{
   background: rgba(0,0,0,0.1);
+}
+.menulinks a:hover{
+  color: red;
 }
 .MobileMenu{
   display: flex;
@@ -118,10 +122,10 @@ a {
   color: blue;
 }
 .instagram:hover{
-  color: purple;
+  color: blueviolet;
 }
 .whatsapp:hover{
-  color: green;
+  color: mediumseagreen;
 }
 /*Header Ends*/
 

@@ -30,7 +30,7 @@ function Courses() {
         <meta name="description" content="Reactjs official Web Application" />
         <link rel="icon" href="/YourFavicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></link>
@@ -64,12 +64,12 @@ function Courses() {
           <div className={styles.courseheroright}>
             <h4 className={styles.h4}>Need help Choosing?</h4>
             <p className={styles.p}>Talk to our team to find the right course for your career</p>
-            <form>
+            <form action="https://formsubmit.io/send/50a5d3f9-5964-4094-bf8f-a49a870e7648" method='POST'>
             <input className={styles.input} type="text" placeholder='First Name' required />
             <input className={styles.input} type="email" placeholder='Email' required />
             <input className={styles.input} type="number" placeholder='Contact Number' required />
             <input className={styles.input} type="text" placeholder='Graduation Year' required />
-            <button type='submit' className={styles.btnwithback}>Let's Connect</button>
+            <input type='submit' value="Let's Connect" className={styles.btnwithback}/>
             </form>
           </div>
         </div>
@@ -115,7 +115,28 @@ function Courses() {
         <div className={styles.purchase}>
           <div className={styles.purchaseleft}>
             <h1 className={styles.h2purchase}>Select a plan based on your needs</h1>
-            <div className={styles.purchasetopcard}></div>
+            <div className={styles.purchasetopcard}>
+              <div className={styles.topcardbox}>
+                <div className={styles.topcardboximg}></div>
+                <span>13 <br />Months</span>
+              </div>
+              <div className={styles.topcardbox}>
+                <div className={styles.topcardboximg1}></div>
+                <span>110+ <br />Hours</span>
+              </div>
+              <div className={styles.topcardbox}>
+                <div className={styles.topcardboximg2}></div>
+                <span>8+ <br />Projects</span>
+              </div>
+              <div className={styles.topcardbox}>
+                <div className={styles.topcardboximg3}></div>
+                <span>90+ <br />Tasks</span>
+              </div>
+              <div className={styles.topcardbox}>
+                <div className={styles.topcardboximg4}></div>
+                <span>400+<br />Doubts</span>
+              </div>
+            </div>
             <div className={styles.basicfeatures}>
               <h1 className={styles.justatext}>Bonus Features</h1>
               <ul className={styles.ul}>
@@ -159,15 +180,15 @@ function Courses() {
               <span className={styles.righttextbox}>Web Development Basics - HTML, CSS, BootStrap</span>
               <p className={styles.p5}>Get to learn how websites work. Start your web development journey with the basics of HTML and learn how to create impressive websites using</p>
               <div className={styles.kuchnahi}>
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <h2 className={styles.h2nox}>Week 1-3</h2>
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
                         How To Build a App?
                       </div>
                     </div>
@@ -180,15 +201,15 @@ function Courses() {
               <p className={styles.p5}>Deep dive into the world of Javascript, one of the commonly used languages for web development. Explore the basics of JS, promises, closures, and com-</p>
 
               <div className={styles.kuchnahi}>
-                <div class="accordion" id="accordionExampleTwo">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion" id="accordionExampleTwo">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
                         <h2 className={styles.h2nox}>Week 4-6</h2>
                       </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExampleTwo">
-                      <div class="accordion-body">
+                    <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExampleTwo">
+                      <div className="accordion-body">
                         Looks Like a Joker
                       </div>
                     </div>
@@ -200,15 +221,15 @@ function Courses() {
               <span className={styles.righttextbox}>ReactJS</span>
               <p className={styles.p5}>Most of the websites getting built nowadays are using React, so why should you stay behind. Learn all the components of React, understand how React</p>
               <div className={styles.kuchnahi}>
-                <div class="accordion" id="accordionExampleThree">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <div className="accordion" id="accordionExampleThree">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingThree">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                         <h2 className={styles.h2nox}>Week 6-8</h2>
                       </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExampleThree">
-                      <div class="accordion-body">
+                    <div id="collapseThree" className="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExampleThree">
+                      <div className="accordion-body">
                         Not Now!
                       </div>
                     </div>
@@ -220,15 +241,15 @@ function Courses() {
               <span className={styles.righttextbox}>Code Review + Deployment</span>
               <p className={styles.p5}>Developers don't just write code, they write production level code. Learn how to write production-level code, deploy your projects, and flaunt it to the</p>
               <div className={styles.kuchnahi}>
-                <div class="accordion" id="accordionExampleFour">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion" id="accordionExampleFour">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFour">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
                         <h2 className={styles.h2nox}>Week 9</h2>
                       </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExampleFour">
-                      <div class="accordion-body">
+                    <div id="collapseFour" className="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExampleFour">
+                      <div className="accordion-body">
                         How To Build a App?
                       </div>
                     </div>
@@ -240,15 +261,15 @@ function Courses() {
               <span className={styles.righttextbox}>Projects</span>
               <p className={styles.p5}>You will build 5+ projects during the whole program. Starting from building basic apps to bring your learning to the application, to building a real-world.</p>
               <div className={styles.kuchnahi}>
-                <div class="accordion" id="accordionExampleFive">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                <div className="accordion" id="accordionExampleFive">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFive">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                         <h2 className={styles.h2nox}>Week 1-10</h2>
                       </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExampleFour">
-                      <div class="accordion-body">
+                    <div id="collapseFive" className="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExampleFour">
+                      <div className="accordion-body">
                         How To Build a App?
                       </div>
                     </div>
@@ -258,14 +279,14 @@ function Courses() {
             </div>
             <div className={styles.nox}>
               <button className={styles.noxbtn} data-bs-toggle="modal" data-bs-target="#exampleModal">Download Syllabus</button>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Just One Step To Go...</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="exampleModalLabel">Just One Step To Go...</h5>
+                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div className="modal-body">
                       <div className={styles.courseheroright}>
                         <h4 className={styles.h4}>Let's Know Each Other</h4>
                         <p className={styles.p}>Don't Worry We Don't Spam!</p>
@@ -427,102 +448,110 @@ function Courses() {
       <section className={styles.section5}>
         <h2 className={styles.h2d}>Frequently Asked Questions</h2>
         <div className={styles.questions}>
-          <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-white text-blue-600">
-            <h2 id="accordion-color-heading-1">
-              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
-                <span className='text-black'>What are the prerequisites for learning React JS?</span>
-                <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </button>
-            </h2>
-            <div id="accordion-color-body-1" class="" aria-labelledby="accordion-color-heading-1">
-              <div class="p-5 font-light ">
-                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ratione deleniti at nesciunt itaque vitae doloremque, error eveniet corrupti odio veritatis facere mollitia blanditiis beatae corporis repellendus, ut quis! Voluptatibus autem esse cum. Atque itaque est iusto, aliquam, praesentium quas perspiciatis rerum labore, nostrum voluptatem nemo consequatur vero assumenda maxime ea magni quam totam ut impedit odit! Doloremque optio ea reprehenderit quas molestias dolor animi placeat modi nam nemo eaque tempora sequi, illum repellendus. Officiis illum autem sequi illo molestias vitae nemo unde, ut cumque quia aperiam molestiae qui perferendis dignissimos soluta non quam iure. Facere illo alias aliquid rem..</p>
-              </div>
-            </div>
-            <h2 id="accordion-color-heading-2">
-              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
-                <span className='text-black'>How much time will it take to learn React JS?</span>
-                <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </button>
-            </h2>
-            <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
-              <div class="p-5 font-light ">
-                <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit impedit similique, sapiente explicabo ducimus fuga consequatur. Voluptate dignissimos sed porro eum quos, amet sequi, labore temporibus suscipit eos vitae praesentium, velit accusamus laborum. Omnis, ea! Adipisci eligendi ut quisquam mollitia similique commodi vel, perspiciatis labore laboriosam debitis tempore? Voluptatum assumenda libero facilis illo nihil alias reiciendis, dolor tempora expedita dolorum provident magnam, sint ut mollitia eveniet officiis asperiores quam a doloribus quae necessitatibus temporibus architecto! Culpa nulla beatae eligendi numquam recusandae, repudiandae tempore harum fugit labore id at atque sunt eius vel cumque veniam corporis. Nobis modi deserunt eius unde!</p>
-              </div>
-            </div>
-            <h2 id="accordion-color-heading-3">
-              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
-                <span className='text-black'>Is there any certification for React JS?</span>
-                <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </button>
-            </h2>
-            <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-              <div class="p-5 font-light">
-                <p class="mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam fugiat perspiciatis officiis magnam neque, dolorum iusto voluptate ducimus nobis facilis ratione ad sequi voluptatem! Illum, ducimus modi. Voluptas harum cupiditate, explicabo qui expedita eos at sequi, culpa nam quasi esse illo omnis quibusdam consectetur perspiciatis id, tenetur reiciendis vel aliquid soluta quae dicta praesentium? Voluptatum totam vero culpa consequatur provident ratione eaque necessitatibus sint. Esse fugiat distinctio nulla aliquid illo quos! Quidem neque illum esse. Qui dicta fuga error ducimus veniam voluptatum voluptate fugit illo, vitae tempora facilis expedita, beatae nihil molestias consectetur quod modi recusandae architecto quo, aspernatur nesciunt?.</p>
-              </div>
-            </div>
-          </div>
-          <div id="accordion-collapse" data-accordion="collapse" data-active-classes="bg-white text-blue-600 border-none">
-            <h2 id="accordion-collapse-heading-1">
-              <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl focus:ring-4 " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-                <span className='text-black'>Why is React JS better than Angular?</span>
-                <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </button>
-            </h2>
-            <div id="accordion-collapse-body-1" class="" aria-labelledby="accordion-collapse-heading-1">
-              <div class="p-5 font-light">
-                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia accusamus maxime distinctio iure, commodi sed! Iure, rem maiores, incidunt nesciunt, odit autem iste impedit aspernatur quo laborum eos ut id harum. Cumque impedit ipsam quaerat delectus ad ullam expedita veniam officiis natus reiciendis vitae consequatur repellat, iure, voluptate eos. At, ea nostrum unde expedita possimus praesentium voluptates eveniet, suscipit odio incidunt accusantium quo non quos consectetur? Nulla sed, illum accusantium officiis, dicta voluptas qui commodi non autem debitis blanditiis excepturi! Iste aut expedita, quos error sit exercitationem molestias distinctio eius velit repellendus dolore enim quibusdam veniam harum ducimus cumque!</p>
-              </div>
-            </div>
-          </div>
+        <div className="accordion mb-28" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header mb-3" id="headingTwo">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h2 className={styles.h2nox}>What are the prerequisites for learning React JS?</h2>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
+                        How To Build a App?
+                      </div>
+                    </div>
+                    <h2 className="accordion-header mb-3" id="headingTwo">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <h2 className={styles.h2nox}>How much time will it take to learn React JS?</h2>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
+                        How To Build a App?
+                      </div>
+                    </div>
+                    <h2 className="accordion-header mb-3" id="headingThree">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <h2 className={styles.h2nox}>Is there any certification for React JS?</h2>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" className="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
+                        How To Build a App?
+                      </div>
+                    </div>
+                    <h2 className="accordion-header mb-3" id="headingFour">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <h2 className={styles.h2nox}>Why is React JS better than Angular?</h2>
+                      </button>
+                    </h2>
+                    <div id="collapseFour" className="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
+                        How To Build a App?
+                      </div>
+                    </div>
+                  </div>
+                </div>
         </div>
       </section>
-      <div className={styles.connect}></div>
+      <div className={styles.connect}>
+        <div className={styles.connectleft}>
+          <h1 className={styles.connecth1}>Find us at the office</h1>
+          <p className={styles.connectp}>Bangalore,<br/>India<br/>Email: reactjsofficial1@gail.com</p>
+        </div>
+        <div className={styles.connectmiddle}>
+          <div className={styles.or}>OR</div>
+        </div>
+        <div className={styles.connectright}>
+        <h1 className={styles.connecth1}>Give us a ring</h1>
+          <p className={styles.connectp}>Reactjsofficial<br/>+91 7209 236123, +91 7764056669<br />Mon - Sat, 10:00am-10:00pm</p>
+        </div>
+      </div>
       <div className={styles.contactback}>
-        <section className="text-white body-font relative w-full" id='contact'>
+      <section className="text-white body-font relative w-full" id='contact'>
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
             </div>
+            <form action="https://formsubmit.io/send/50a5d3f9-5964-4094-bf8f-a49a870e7648" method='POST'>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
-              <form >
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label for="name" className="leading-7 text-sm text-white">Name</label>
-                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <label htmlFor="name" className="leading-7 text-sm text-white">Name</label>
+                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label for="email" className="leading-7 text-sm text-white">Email</label>
-                    <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <label htmlFor="email" className="leading-7 text-sm text-white">Email</label>
+                    <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label for="name" className="leading-7 text-sm text-white">Phone No.</label>
-                    <input type="number" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <label htmlFor="name" className="leading-7 text-sm text-white">Phone No.</label>
+                    <input type="number" id="phone" name="phone" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label for="name" className="leading-7 text-sm text-white">Company Name</label>
-                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <label htmlFor="name" className="leading-7 text-sm text-white">Company Name</label>
+                    <input type="text" id="companyname" name="companyname" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-full">
                   <div className="relative">
-                    <label for="message" className="leading-7 text-sm text-white">Message</label>
-                    <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
+                    <label htmlFor="message" className="leading-7 text-sm text-white">Message</label>
+                    <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-blue-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button type='submit' className={styles.btnwithback}>Submit</button>
+                  <button className={styles.btnwithback}>Submit</button>
                 </div>
               </div>
-              </form>
             </div>
+            </form>
           </div>
         </section>
       </div>

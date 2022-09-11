@@ -21,11 +21,7 @@ function Header() {
     <>
      <header className='head'>
      <Link href="/">
-        <div className="logo">
-        Reactjs
-          <span>
-          official
-          </span>
+        <div className="logo">Reactjs<span>official</span>
         </div>
         </Link>
         <div className="ToggleMenu icon" id='menuon' onClick={toggleMenu}>
@@ -35,33 +31,33 @@ function Header() {
           <AiOutlineClose />
         </div>
         <div className="menulinks">
-        <Link href="/">
+        <Link href="/courses">
           <a href="#">React Training</a>
           </Link>
-        <Link href="/Courses">
+        <Link href="/">
           <a href="#">Become Our Team</a>
           </Link>
           <a href="#contact">Contact Us</a>
-          <a href="https://reactjsofficial.com/">Blogs</a>
+          <a href="https://blogs.reactjsofficial.com/">Blogs</a>
         </div>
         <div className="share">
-          <FaTelegramPlane className='icon telegram' />
-          <FaInstagram className='icon instagram' />
-          <BsWhatsapp className='icon whatsapp' />
+          <a href="https://t.me/+RadJamoTjPJsl3k"><FaTelegramPlane className='icon telegram' /></a>
+          <a href="https://www.instagram.com/reactjsofficial/"><FaInstagram className='icon instagram' /></a>
+          <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDX6"><BsWhatsapp className='icon whatsapp' /></a>
         </div>
         <div className="MobileMenu" id='MobileMenu'>
-        <Link href="/">
+        <Link href="/courses">
           <a href="#">React Training</a>
           </Link>
-          <Link href="/Courses">
+          <Link href="/">
           <a href="#">Become Our Team</a>
           </Link>
           <a href="#contact">Contact Us</a>
-          <a href="https://reactjsofficial.com/">Blogs</a>
+          <a href="https://blogs.reactjsofficial.com/">Blogs</a>
           <div className="Mobshare">
-          <FaTelegramPlane className='icon telegram' />
-          <FaInstagram className='icon instagram' />
-          <BsWhatsapp className='icon whatsapp' />
+          <a href="https://t.me/+RadJamoTjPJsl3k"><FaTelegramPlane className='icon telegram' /></a>
+          <a href="https://www.instagram.com/reactjsofficial/"><FaInstagram className='icon instagram' /></a>
+          <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDX6"><BsWhatsapp className='icon whatsapp' /></a>
         </div>
         </div>
      </header>

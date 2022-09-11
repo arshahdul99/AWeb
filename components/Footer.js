@@ -21,7 +21,7 @@ function Footer() {
             </Link>
         </div>
         <div className={styles.copyright}>
-          <p>Copyright 2022 Reactofficial.com | All Right Reserved</p>
+          <p>Copyright 2022 Reactofficial.com |<br/>| All Right Reserved</p>
         </div>
       </footer>
     </>

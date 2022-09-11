@@ -9,7 +9,7 @@
   transition: all 0.6s;
   margin: 10px auto;
 }
-.button:hover{
+.button:hover {
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
 }
 .button:active {
@@ -39,10 +39,12 @@
   font-weight: 900;
   cursor: pointer;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .logo span {
   color: #ff3000;
   font-weight: 900;
+  cursor: pointer;
 }
 .links a {
   text-decoration: none;
@@ -53,13 +55,14 @@
 .links a:active {
   background: rgba(0, 0, 0, 0.1);
 }
-.burgerMenu{
+.burgerMenu {
   font-size: 1.8rem;
   padding: 2px;
   border-radius: 5%;
   transition: all 0.7s;
 }
-.closeMenu, .toogleMenu{
+.closeMenu,
+.toogleMenu {
   display: none;
 }
 .icons {
@@ -70,12 +73,12 @@
   width: 100px;
   cursor: pointer;
 }
-.iconshov{
+.iconshov {
   padding: 2px;
   border-radius: 5%;
   transition: all 0.7s;
 }
-.iconshov:hover{
+.iconshov:hover {
   background: rgba(225, 225, 225, 0.5);
   cursor: pointer;
 }
@@ -88,16 +91,16 @@
   cursor: pointer;
   display: none;
 }
-.iconshov1{
+.iconshov1 {
   padding: 2px;
   border-radius: 5%;
   transition: all 0.7s;
 }
-.iconshov1:hover{
+.iconshov1:hover {
   background: rgba(225, 225, 225, 0.5);
   cursor: pointer;
 }
-.Mlinks{
+.Mlinks {
   display: flex;
   flex-direction: column;
   right: 10px;
@@ -108,7 +111,7 @@
   width: 250px;
   z-index: 999;
 }
-.Mlinks a{
+.Mlinks a {
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;
@@ -118,28 +121,28 @@
 .Mlinks a:active {
   background: rgba(0, 0, 0, 0.1);
 }
-.closeMenu{
+.closeMenu {
   font-size: 1.5rem;
 }
-@media only screen and (max-width: 768px){
-  .navbar{
-      justify-content: space-between;
+@media only screen and (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
   }
-  .links{
-      display: flex;
-      flex-direction: column;
-      display: none;
+  .links {
+    display: flex;
+    flex-direction: column;
+    display: none;
   }
-  .icons{
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 150px;
-      display: none;
+  .icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+    display: none;
   }
-  #ShowMenu{
-      display: block;
+  #ShowMenu {
+    display: block;
   }
-  .toogleMenu{
+  .toogleMenu {
     display: block;
   }
 }
@@ -178,7 +181,7 @@
   }
 }
 /* Main Page Design */
-.container{
+.container {
   padding: 60px;
 }
 .home {
@@ -199,70 +202,70 @@
 }
 .h1 {
   color: #020e4a;
-font-family: Nunito;
-font-size: 48px;
+  font-family: Nunito;
+  font-size: 48px;
 
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
 }
 .h2 {
   font-family: "Nunito";
   font-size: 36px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
 }
 .p {
   color: #020e4a;
-font-family: "Myriad Pro";
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
-/* Text style for "P, ersonal" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "P, ersonal" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
 }
 .p1 {
   color: #020e4a;
-font-family: "Myriad Pro";
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin-top: 10px;
-text-align: center;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
 }
-.abth5{
+.abth5 {
   color: #0c0c0c;
-font-family: Nunito;
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
 }
-.abth2{
+.abth2 {
   color: #020e4a;
-font-family: Nunito;
-font-size: 32px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
 }
 .info {
   display: flex;
@@ -283,24 +286,24 @@ text-align: left;
 .infosecond {
   width: 400px;
   color: #525252;
-font-family: Nunito;
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
 }
 .infothird {
   width: 400px;
   color: #525252;
-font-family: Nunito;
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
 }
 .stats {
   display: flex;
@@ -330,7 +333,7 @@ text-align: left;
   text-align: center;
   transition: all 0.6s;
 }
-.box:hover{
+.box:hover {
   transform: translateY(-20px);
   cursor: pointer;
 }
@@ -342,18 +345,18 @@ text-align: left;
 .cuppon {
   width: 100%;
   height: 100vh;
-  background: url(../public/18-layers.png);
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .cupoo {
-  width: 90%;
+  width: 100%;
+  height: 90vh;
   margin: 0px auto;
   text-align: center;
 }
 .ch1 {
-  margin-top: 180px;
   font-size: 2rem;
   color: #020e4a;
   font-weight: bold;
@@ -363,22 +366,42 @@ text-align: left;
   color: #ff3000;
   font-weight: 400;
 }
+.cuppomain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 10px;
+  background: url(../public/notjustanotherback.png);
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
 .cupoocont {
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
   border: none;
   border-radius: 4px;
-  display: none;
+  width: 550px;
+  height: 350px;
+  background: white;
+  transform: translate(-50px, 50px);
+  padding: 10px;
 }
-.cuppoimg {
-  display: none;
-  width: 100%;
-  height: 30vh;
-  margin: 10px auto;
+.cupooleftimg {
+  width: 550px;
+  height: 350px;
   border-radius: 6px;
   border: none;
   background: url(../public/campusImg.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
 }
 .cupooinfo {
@@ -386,50 +409,81 @@ text-align: left;
   width: 100%;
   border-radius: 7px;
   padding: 0px;
-  display: none;
 }
 .feature {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   text-align: left;
   width: 100%;
   padding: 10px;
   margin: 10px auto;
   overflow: hidden;
 }
+.pb {
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+.pbhook {
+  color: #6b6b6b;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.cupooinfobox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+}
 .feachimg1 {
-  width: 45px;
-  height: 45px;
+  width: 56px;
+  height: 56px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: orange#ff3000;
   background: url(../public/lesson.png);
+  background-color: #feecef;
+  border-radius: 50%;
   background-position: center;
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 .feachimg2 {
-  width: 45px;
-  height: 45px;
+  width: 56px;
+  height: 56px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: orange#ff3000;
-  background: url(../public/presentation.png);
+  background: url(../public/lecture_copy.png);
+  background-color: #e7f8f5;
+  border-radius: 50%;
   background-position: center;
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 .feachimg3 {
-  width: 45px;
-  height: 45px;
+  width: 56px;
+  height: 56px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: orange#ff3000;
-  background: url(../public/lecture_copy.png);
+  background: url(../public/presentation.png);
+  background-color: #fff4e8;
+  border-radius: 50%;
   background-position: center;
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 .feachinfo {
@@ -456,28 +510,28 @@ text-align: left;
   width: 40%;
   height: auto;
 }
-.aboutinfoh5{
+.aboutinfoh5 {
   color: #000105;
-font-family: Nunito;
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 35px;
-text-align: left;
-text-transform: uppercase;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+  text-align: left;
+  text-transform: uppercase;
 }
-.aboutinfoh1{
+.aboutinfoh1 {
   color: #000105;
-font-family: Nunito;
-font-size: 37px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 35px;
-text-align: left;
+  font-family: Nunito;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+  text-align: left;
 }
-.aboutinfop{
+.aboutinfop {
   color: #6a6a6a;
   font-family: Nunito;
   font-size: 14px;
@@ -495,13 +549,25 @@ text-align: left;
   width: 644px;
   height: 618px;
 }
+.ul {
+  list-style-image: url(../public/tick.png);
+  margin-left: 30px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
 .li {
-  width: 288px;
-  height: 121px;
-  margin-left: 20px;
-  background: url(../public/5-layers.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  padding: 5px;
+  color: #000000;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 37px;
+  text-align: left;
 }
 .aboutusbottom {
   display: flex;
@@ -536,73 +602,77 @@ text-align: left;
   text-align: center;
   text-transform: uppercase;
 }
-.mockp{
+.mockp {
   font-family: Nunito;
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
-margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-top: 10px;
 }
 
 /*2nd Last Section CSS*/
 .fyda {
   width: 100%;
-  height: 100vh;
-  background: url(../public/fyda.png);
+  height: 120vh;
+  background: url(../public/benefitsback.png);
+  background-color: #f7f5f2;
   background-position: center;
   background-size: cover;
 }
-.h1fyda{
+.h1fyda {
   color: #000105;
-font-family: Nunito;
-font-size: 23px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: 35px;
-display: none;
-text-align: center;
+  font-family: Nunito;
+  font-size: 23px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+  display: none;
+  text-align: center;
+}
+.allbtnfyda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .fydabutton {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  background: #ff3000;
-  border-radius: 55px;
-  width: 90%;
+  width: 393px;
+  height: 138px;
+  border-radius: 69px;
+  background-color: #ff3000;
   text-align: left;
   margin: 20px auto;
-  display: none;
 }
 .fydabutton1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  background: #fff9e4;
-  color: #333;
-  border-radius: 55px;
-  width: 90%;
+  width: 392px;
+  height: 137px;
+  border-radius: 69px;
+  background-color: #fff9e4;
   text-align: left;
   margin: 20px auto;
-  display: none;
 }
 .fydabutton2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  background: #ffe7ed;
-  color: #333;
-  border-radius: 55px;
-  width: 90%;
+  width: 392px;
+  height: 137px;
+  border-radius: 69px;
+  background-color: #ffe7ed;
   text-align: left;
   margin: 20px auto;
-  display: none;
 }
 .fydaleft {
   display: flex;
@@ -610,6 +680,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   color: white;
+  text-align: left;
 }
 .fydaright {
   display: flex;
@@ -630,11 +701,23 @@ text-align: center;
 .fydaright1 {
   display: flex;
   flex-direction: column;
-  text-align: left;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  text-align: left;
   color: #000;
   margin-left: 20px;
+}
+.fydah1bol {
+  color: #000105;
+  font-family: Nunito;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .fydaleft2 {
   display: flex;
@@ -646,26 +729,95 @@ text-align: center;
 .fydaright2 {
   display: flex;
   flex-direction: column;
-  text-align: left;
   justify-content: center;
-  align-items: center;
   color: #000;
+  text-align: left;
   margin-left: 20px;
 }
+.fydaright {
+  text-align: left;
+}
+.fydaright2 {
+  text-align: left;
+}
 .connect {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 955px;
   height: 207px;
   border-radius: 20px;
   background-color: #ff3000;
   border-radius: 35px;
-  background: url(../public/8-layers.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
   margin: 0px auto;
-  position: relative;
-  top: -100px;
-  z-index: 99;
+  position: absolute;
+  left: 16%;
+  transform: translateY(-130px);
+  z-index: 9;
+}
+.connectleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  padding-left: 25px;
+  height: 100%;
+  font-family: Nunito;
+}
+.connectmiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 84px;
+  border-radius: 50%;
+  border: 2px solid #d6d6d6;
+  background-color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Nunito;
+}
+.connectright {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+.connecth1 {
+  color: #ffffff;
+  font-family: "Poppins - Black";
+  font-size: 23px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+.connectp {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
 }
 .contactback {
   background: rgba(0, 0, 0, 0.7) url("../public/footer.jpg");
@@ -674,32 +826,35 @@ text-align: center;
   background-size: cover;
   object-fit: cover;
   background-blend-mode: darken;
+  margin-top: 0;
 }
 
 /* Meadia Queries */
 @media only screen and (max-width: 768px) {
-  .container{
+  .container {
     padding: 0;
   }
-  .info{
+  .info {
     padding: 18px;
   }
-  .infofirst{
+  .infofirst {
     text-align: center;
   }
-  .abth2, .abth5{
+  .abth2,
+  .abth5 {
     text-align: center;
   }
-  .infosecond, .infothird{
+  .infosecond,
+  .infothird {
     text-align: center;
   }
-  .stats{
+  .stats {
     margin: 10px auto;
   }
-  .box{
+  .box {
     margin: 20px auto;
   }
-  .ch1{
+  .ch1 {
     margin-top: 10px;
     font-size: 1.7rem;
   }
@@ -707,14 +862,33 @@ text-align: center;
     background: white;
     height: auto;
   }
+  .cupooinfobox {
+    width: 95%;
+    margin: 10px auto;
+    flex-direction: row;
+    flex-wrap: unset;
+  }
   .cuppoimg {
-    display: block;
+    display: flex;
   }
   .cupooinfo {
-    display: block;
+    display: flex;
+  }
+  .cuppomain {
+    background: none;
+    height: auto;
+  }
+  .cupooleftimg {
+    width: 95%;
+    height: 300px;
   }
   .cupoocont {
-    display: block;
+    width: 95%;
+    margin: 10px auto;
+    transform: translate(0);
+    display: flex;
+    height: auto;
+    padding: 0;
   }
   .aboutus {
     display: grid;
@@ -729,12 +903,54 @@ text-align: center;
     width: 100%;
     height: 50vh;
   }
-  .aboutusboxes{
+  .aboutusboxes {
     width: 100%;
     margin: 10px auto;
   }
-  .li{
-    margin: 10px auto;
+  .ul {
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+  .li {
+    padding: 0;
+    text-align: left;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ff3000;
+    border-radius: 4px;
+    margin: 0px auto;
+    column-gap: 10px;
+    position: relative;
+    left: 0;
+    transform: translateY(0);
+    z-index: 9;
+  }
+  .connect br{
+    display: none;
+  }
+  .connecth1{
+    text-align: center;
+    padding: 10px;
+  }
+  .connectp{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+  .feature {
+    padding: 0;
   }
   .fyda {
     background: url(../public/girl-1.png);
@@ -763,30 +979,36 @@ text-align: center;
     display: flex;
     height: 130px;
   }
-  .connect {
-    width: 98%;
-    position: relative;
-    top: -10px;
-    margin: -100px auto;
+  .fydah1bol {
+    color: #000105;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-  .box{
+  .box {
     height: 70px;
     width: 50%;
   }
-  .ch2{
+  .ch2 {
     font-size: 1rem;
   }
-  .aboutinfoh1{
+  .aboutinfoh1 {
     text-align: center;
     font-size: 1.6rem;
   }
   .aboutinfoh5 {
     text-align: center;
   }
-  .aboutinfop{
+  .aboutinfop {
     text-align: center;
   }
-  .infofirst{
+  .infofirst {
     width: 98%;
   }
 }

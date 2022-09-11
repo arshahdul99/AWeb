@@ -96,6 +96,9 @@ a {
   display: none;
 }
 @media only screen and (max-width: 768px) {
+  body{
+    width: 100%;
+  }
   .head{
       justify-content: space-between;
   }
@@ -128,4 +131,3 @@ a {
   color: mediumseagreen;
 }
 /*Header Ends*/
-

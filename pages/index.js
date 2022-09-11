@@ -29,7 +29,7 @@ export default function Home() {
           <h2 className={styles.h2}>Let us help You!!!</h2>
           <p className={styles.p1}>Personalized Training - Guidance from top-notch faculities - job Assistance - Internship Programs - Enhance <br /> Skillsets Land a job of 8+ LPA Helped 500+ Students and many more to go...</p>
           <Link href="/courses">
-          <button className={styles.button}>Explore Now</button>
+          <button className={styles.lookbtn}>Explore Now</button>
           </Link>
         </div>
       </section>
@@ -179,31 +179,31 @@ industry experts.</p>
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="name" className="leading-7 text-sm text-white">Name</label>
-                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <input type="text" id="name" name="name" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 bg-white text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="email" className="leading-7 text-sm text-white">Email</label>
-                    <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <input type="email" id="email" name="email" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 bg-white text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="name" className="leading-7 text-sm text-white">Phone No.</label>
-                    <input type="number" id="phone" name="phone" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <input type="number" id="phone" name="phone" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 bg-white text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label htmlFor="name" className="leading-7 text-sm text-white">Company Name</label>
-                    <input type="text" id="companyname" name="companyname" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+                    <input type="text" id="companyname" name="companyname" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 bg-white text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                   </div>
                 </div>
                 <div className="p-2 w-full">
                   <div className="relative">
                     <label htmlFor="message" className="leading-7 text-sm text-white">Message</label>
-                    <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-blue-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
+                    <textarea id="message" name="message" className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 bg-white h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">

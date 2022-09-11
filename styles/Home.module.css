@@ -9,6 +9,18 @@
   transition: all 0.6s;
   margin: 10px auto;
 }
+.lookbtn{
+  padding: 8px 30px;
+  border-radius: 35px;
+  border: none;
+  background: #ff3000;
+  color: white;
+  transition: all 0.6s;
+  margin: 10px auto;
+}
+.lookbtn:hover{
+  box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
 .button:hover {
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
 }
@@ -750,7 +762,8 @@
   border-radius: 35px;
   margin: 0px auto;
   position: absolute;
-  left: 16%;
+  left: 0;
+  right: 0;
   transform: translateY(-130px);
   z-index: 9;
 }
@@ -970,14 +983,20 @@
   .fydabutton {
     display: flex;
     height: 130px;
+    width: 90%;
+    margin: 10px auto;
   }
   .fydabutton1 {
     display: flex;
     height: 130px;
+    width: 90%;
+    margin: 10px auto;
   }
   .fydabutton2 {
     display: flex;
     height: 130px;
+    width: 90%;
+    margin: 10px auto;
   }
   .fydah1bol {
     color: #000105;
@@ -1022,4 +1041,43 @@
 }
 .btnwithback:hover {
   box-shadow: 0 5px 24px rgba(203, 199, 199, 0.48);
+}
+
+
+@media only screen and (max-width: 360px) {
+  .h1{
+    color: #020e4a;
+    font-family: Nunito;
+    font-size: 39px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+  }
+  .hero{
+    top: 89px;
+  }
+  .h2{
+    font-family: "Nunito";
+    font-size: 31px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .p1{
+    color: #020e4a;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .p1 br{
+    display: none;
+  }
 }

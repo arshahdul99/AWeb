@@ -317,7 +317,7 @@ function Courses() {
               disableOnInteraction: false,
             }}
             pagination={{
-              clickable: true,
+              clickable: false,
             }}
             breakpoints={{
               "@0.00": {
@@ -329,7 +329,7 @@ function Courses() {
                 spaceBetween: 500,
               },
             }}
-            navigation={true}
+            navigation={false}
             modules={[Autoplay, Pagination, Navigation]}
             loop="true"
             className="mySwiper"

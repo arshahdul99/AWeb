@@ -916,6 +916,9 @@ height: 36px;
     font-size: 1.6rem;
     text-align: center;
   }
+  .h3{
+    text-align: center;
+  }
   .section1 {
     height: auto;
   }

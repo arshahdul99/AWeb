@@ -892,6 +892,11 @@ height: 36px;
 }
 
 /* Media Queries For Mobile View */
+@media (max-width: 1440px) {
+  .purchase{
+    padding: 0;
+  }
+}
 @media (max-width: 760px) {
   .swiper-button-next {
     right: 20px;

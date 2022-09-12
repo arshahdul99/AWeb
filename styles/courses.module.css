@@ -412,7 +412,7 @@
   border-radius: 10px;
   background-color: #f7f5f2;
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 7px;
   padding: 20px;
 }
 .h2purchase {
@@ -1027,7 +1027,7 @@ height: 36px;
   .purchaseright {
     width: 100%;
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 0px;
     height: auto;
   }
   .coursetopboxs {
